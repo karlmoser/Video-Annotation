@@ -1,0 +1,136 @@
+/*
+| -------------------------------------------------------------------
+| Fonts
+| -------------------------------------------------------------------
+*/
+
+@font-face {
+	font-family: exo;
+	src: url("../font/exo/Exo-Black.otf") format("opentype");
+}
+
+
+/*
+| -------------------------------------------------------------------
+| Variables
+| -------------------------------------------------------------------
+*/
+
+$light-gray: #cccccc;
+$green: #009933;
+$gray: #5B5757;
+$white: #FFFFFF;
+
+
+/*
+| -------------------------------------------------------------------
+| Application CSS
+| -------------------------------------------------------------------
+*/
+
+html,body {
+	background-color: $gray;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 90%;
+	min-height: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1,h2,h3,h4,h5 {
+	// color: $green;
+}
+
+.row-pad {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.banner {
+	background-color: white;
+	margin-top: 4px;
+	max-width: 1200px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.content {
+	margin-top: 5px;
+	padding-top: 10px;
+	height: auto;
+	background-color: white;
+	max-width: 1200px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.logo {
+	max-width: 100%;
+}
+
+.scroll-v{
+	max-height: 90vh;
+}
+
+.scroll-h{
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.scroll-h-inner {
+	height: 200px;
+	width: 10000px;
+}
+
+.form-line {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	text-align: left;
+
+	label {
+		width: 30%;
+	}
+
+	input {
+		width: 65%;
+	}
+}
+
+.vid-thumb-container {
+	display: inline-block;
+	height: 120px;
+	width: 200px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.vid-thumb {
+	margin: 5px;
+	height: 100%;
+}
+
+.video-js {
+	padding-top: 56.25% !important
+}
+
+.profile-pic-icon {
+	width: 128px;
+}

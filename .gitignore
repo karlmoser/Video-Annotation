@@ -1,0 +1,11 @@
+/cookbooks/
+/tmp/librarian/
+Cheffile.lock
+/.vagrant
+/.chef
+web/public/css/.sass-cache
+web/.sass-cache
+web/node_modules
+default.css.map
+web/public/uploads
+shermaza@access.engr.oregonstate.edu

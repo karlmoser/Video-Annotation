@@ -1,0 +1,13 @@
+Database:
+	Create seed data for testing (make sure there are accounts for devs)
+
+User Model:
+	Get a list of a user's friends
+
+Unit Testing (Based on a seed database):
+	Video Model
+	User Model
+
+Views:
+	User profile views, which would provide a way to add friends
+	Search bar for users and videos

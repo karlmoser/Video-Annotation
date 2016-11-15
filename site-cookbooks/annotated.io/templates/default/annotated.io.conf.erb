@@ -1,0 +1,30 @@
+<VirtualHost *:80>
+  LoadModule rewrite_module modules/mod_rewrite.so
+  
+  ServerName annotated.io
+  ServerAdmin 'shermaza@oregonstate.edu'
+
+  DocumentRoot /var/www/web/public
+
+  <Directory />
+          Options FollowSymLinks
+          AllowOverride None
+  </Directory>
+
+  <Directory /var/www/web/public >
+          Options Indexes FollowSymLinks MultiViews
+          AllowOverride All
+          Require all granted
+  </Directory>
+
+  ErrorLog /var/log/httpd/error.log
+
+  LogLevel warn
+
+  CustomLog /var/log/httpd/access.log combined
+  ServerSignature Off
+
+  AddType application/x-httpd-php .php
+  AddType application/x-httpd-php-source .phps
+  DirectoryIndex index.php index.html
+</VirtualHost>
