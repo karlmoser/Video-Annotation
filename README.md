@@ -49,7 +49,14 @@ vagrant up
 ```
 
 ## Using the Development Environment
-To check if your development environment is working, go to a web browser and load the address 192.168.33.10. You should see a phpinfo() page to confirm that the VM is up and running.
+To check if your development environment is working, go to a web browser and load the address 192.168.33.10. You should see the homepage of our website. To be able to navigate past the homepage you must modify your computer's host file as described in the following section.
+
+### Host File Setup
+For both Windows and OSX, the application thinks that it lives at the domain "annotated.io". Using your computer's hosts file, you can spoof this domain for your localhost. Add the following entry into your computer's hosts file:
+```
+192.168.33.10		annotated.io
+```
+
 
 ### Grunt
 This project uses NPM + Grunt to manages its packages and workflow automation. Currently, the project only uses Grunt for Sass, but in the future it will likely be used for JavaScript minification as well. To begin with Grunt, navigate to the `/web` directory, and issue the command:
