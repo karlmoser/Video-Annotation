@@ -60,11 +60,14 @@ For both Windows and OSX, the application thinks that it lives at the domain "an
 
 ### Grunt
 This project uses NPM + Grunt to manages its packages and workflow automation. Currently, the project only uses Grunt for Sass, but in the future it will likely be used for JavaScript minification as well. To begin with Grunt, navigate to the `/web` directory, and issue the command:
-
-``` sudo npm install ```
-
+```
+sudo npm install 
+```
 This will install all of the packages and their dependencies. Then, to start grunt-watch, type:
-
-```grunt watch```
-
+```
+grunt watch
+```
 This will watch your .scss files for changes, and re-compile the .css files on saves.
+
+## Website Screenshots
+todo
