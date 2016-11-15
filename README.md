@@ -26,7 +26,11 @@ vagrant up
 ```
 
 ### Windows
-Windows is more complicated than OSX because Ruby doesn't come pre-installed, but it isn't that much more difficult. You will need to first download and install Ruby and the Ruby Development Kit (if you don't already have them) from http://rubyinstaller.org/downloads/.
+Windows is more complicated than OSX because Ruby doesn't come pre-installed. You will need to first download and install Ruby and the Ruby Development Kit (if you don't already have them) from http://rubyinstaller.org/downloads/. Both Ruby and the Ruby Development Kit should be for the same version of Windows. We recommend using the 32-bit Ruby-2.2.X installers for both. Additionally the instructions for installing the Ruby Development Kit can be found at https://github.com/oneclick/rubyinstaller/wiki/Development-Kit.
+
+After installing Ruby and the Ruby Development Kit, make sure that Ruby is correctly linked to the PATH variables of your Windows command prompt, which is found within your Windows environment variables. Additionally, to be able to install the Ruby gems necessary for our project, such as Chef, you will need a valid OpenSSL certificate for Ruby which is not included with Windows, so we must download it. The OpenSSL certificate we used can be found at https://curl.haxx.se/ca/cacert.pem. Your Windows environment variables should have the correct PATH user variable for your ruby install, as well as the SSL\_CERT\_FILE user variable which points to the cacert.pem OpenSSL certificate. The following screenshot shows how to include the PATH and SSL certificate to your Windows environment variables.
+
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/1.png)
 
 Then, install chef and librarian-chef by the commands:
 ```
