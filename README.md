@@ -1,5 +1,8 @@
 # Annotated.io Capstone Project
 
+## Description
+Group senior project through Oregon State University for client Elemental Technologies. We created a website that can annotate uploaded videos with text and then share the annotated videos with other users.
+
 ## Installation
 This project uses Vagrant, a virtual machine management tool, and Chef, a provisioning tool, to create its development environment. To begin using this project, you will need to install Vagrant and Chef separately. Chef is installed as a Ruby gem, and Vagrant requires that Virtualbox is installed, which is a free virtual machine program. You may download these here:
 ```
