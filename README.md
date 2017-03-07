@@ -70,4 +70,35 @@ grunt watch
 This will watch your .scss files for changes, and re-compile the .css files on saves.
 
 ## Website Screenshots
-todo
+### Home page
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/2.PNG)
+
+### Upload Videos page
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/3.PNG)
+
+### My Videos page
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/4.PNG)
+
+### Video Player with text annotation
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/5.PNG)
+
+### Add annotation tab
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/6.PNG)
+
+### Edit annotation tab
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/7.PNG)
+
+### Video name and description below the Annotation editor
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/8.PNG)
+
+### My annotations page
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/9.PNG)
+
+### Sharing annotated video with another user
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/10.PNG)
+
+### Shared video appears in the users messages
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/11.PNG)
+
+### Public profile page
+![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/12.PNG)
