@@ -12,8 +12,11 @@ https://www.virtualbox.org/wiki/Downloads
 
 ### OSX
 OSX comes with Ruby pre-installed, which makes it easy to download the chef and librarian gems. Simply use the following commands:
+#### Note: Older versions of chef and librarian to be compatible with Ruby 2.2.X 
 ```
+gem install chef -v 12.5.1 --no-ri --no-rdoc
 gem install knife-solo --no-ri --no-rdoc
+gem install librarian -v 0.1.1 --no-ri --no-rdoc
 gem install librarian-chef --no-ri --no-rdoc
 ```
 
@@ -35,9 +38,13 @@ After installing Ruby and the Ruby Development Kit, make sure that Ruby is corre
 
 ![ScreenShot](https://raw.github.com/karlmoser/Video-Annotation/master/screenshots/1.png)
 
-Then, install chef and librarian-chef by the commands:
+
+Then, install chef and librarian-chef by using the commands:
+#### Note: Older versions of chef and librarian to be compatible with Ruby 2.2.X 
 ```
+gem install chef -v 12.5.1 --no-ri --no-rdoc
 gem install knife-solo --no-ri --no-rdoc
+gem install librarian -v 0.1.1 --no-ri --no-rdoc
 gem install librarian-chef --no-ri --no-rdoc
 ```
 
