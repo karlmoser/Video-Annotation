@@ -28,6 +28,7 @@ Vagrant.configure(2) do |config|
   config.vm.synced_folder "web/", "/var/www/web"
 
   config.vm.provision "chef_solo" do |chef|
+    chef.version = '12.5.1'
     chef.roles_path = "roles"
     chef.cookbooks_path = ["cookbooks", "site-cookbooks"]
     chef.add_role("web")
